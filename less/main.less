@@ -1,0 +1,70 @@
+@import "settings";
+
+.def-for-arrows{
+  width: 1em;
+  background-repeat: no-repeat;
+  height: 1em;
+  background-position: center center;
+  background-size: 2em;
+  cursor: pointer;
+}
+.tec-date-picker-dialogue{
+  margin: 0 auto;
+}
+.data-picker-body{
+  font-size: 0.8em;
+  color: @labels-color;
+  padding: 1em;
+}
+.data-picker-content{
+  padding: 0 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  table{
+    width: 100%;
+    text-align: center;
+    thead th:first-child{
+      width: 2em;
+    }
+    thead th:last-child{
+      width: 3em;
+    }
+  }
+  .data-picker-arrow-up{
+    background-image: url(@arrow-up-ico);
+    margin: 0 auto 1em;
+    .def-for-arrows;
+  }
+  .data-picker-arrow-down{
+    background-image: url(@arrow-down-ico);
+    margin: 1em auto 0;
+    .def-for-arrows;
+  }
+  .data-picker-value-row{
+    font-size: 1.8em;
+    color: @value-color;
+    td:first-of-type{
+      min-width: 1.3em;
+    }
+  }
+}
+.data-picker-footer {
+  border-top: 1px solid @border-color;
+  height: 2em;
+  div{
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5em;
+    font-size: 0.8em;
+    color: @labels-color;
+  }
+  div:first-child{
+    float: left;
+    border-right: 1px solid @border-color;
+  }
+  div:last-child{
+    float: right;
+    width: 49%;
+  }
+}
