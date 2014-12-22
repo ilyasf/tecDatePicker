@@ -6,12 +6,12 @@ Try It!!
 Usage
 
 add in html page
-<link rel="stylesheet" type="text/css" href="spec/lib/tecDatePicker/css/main.css">
-<script type="text/javascript" src="spec/lib/tecDatePicker/lng/ru.js"></script>
-<script type="text/javascript" src="spec/lib/tecDatePicker/tecDatePicker.min.js"></script>
+css - css/main.css
+language js file lng/ru.js
+core file tecDatePicker.min.js
 
 Add date-role attribute in your input element
-<input placeholder="" name="call-date" id="call-date" value="12.08.2012" type="text" data-role="tec-date" date-format="d.m.Y"/>
+input name="input-name" value="12.08.2012" type="text" data-role="tec-date" date-format="d.m.Y"
 
 Files and Folders
 tecDatePicker.js - resource js file
